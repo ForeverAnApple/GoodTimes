@@ -2,7 +2,7 @@ const express = require('express')  // require express
 const app = express()  // create a request handler function
 const server = require('http').createServer(app)  // use our app to create a server
 const path = require('path')
-const port = 8081
+const port = process.env.PORT || 8081
 
 // include the static client-side files (.html, .css, .js)
 app.use(express.static(path.join(__dirname)))
