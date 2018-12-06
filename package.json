@@ -1,0 +1,26 @@
+{
+  "name": "goodtimes",
+  "version": "1.0.0",
+  "description": "Goodtimes assignment for IoT",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForeverAnApple/GoodTimes.git"
+  },
+  "keywords": [
+    "IoT",
+    "Heroku"
+  ],
+  "author": "Daiwei Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForeverAnApple/GoodTimes/issues"
+  },
+  "homepage": "https://github.com/ForeverAnApple/GoodTimes#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

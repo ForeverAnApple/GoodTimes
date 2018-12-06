@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- DC IoT 2018 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Good Times</title>
+    <link href="src/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="src/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <h1>Time yourself.</h1>
+    <h3><b>Statistics</b></h3>
+    <div id="rec">Most Recent: 0</div><br>
+    <div id="mean">Mean Time: 0</div><br>
+    <div id="range">Range: 0</div><br>
+    <div id="stddev">Standard Deviation: 0</div><br>
+    <button onclick="fetch()">Fetch Stats</button>
+    <button onclick="reset()">Reset Stats</button>
+    <button onclick="rollback()">Rollback</button>
+  </body>
+</html>
