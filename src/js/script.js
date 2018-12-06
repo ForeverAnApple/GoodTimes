@@ -1,5 +1,5 @@
-const device_id = process.env.DEVICE_ID;
-const access_t = process.env.ACCESS_TOKEN;
+const device_id = "400052000d51353532343635";
+const access_t = "4938386ce157fb73505b2623c6c421cb3712ab1d";
 
 function fetch(){
   //getRec();
